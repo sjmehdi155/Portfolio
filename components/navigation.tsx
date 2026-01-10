@@ -45,13 +45,13 @@ export function Navigation() {
 
           <div className="hidden md:flex items-center space-x-8">
             {navItems.map((item) => (
-              <Link
+              <a
                 key={item.name}
                 href={item.href}
                 className="text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors"
               >
                 {item.name}
-              </Link>
+              </a>
             ))}
             <button
               onClick={toggleTheme}
@@ -103,14 +103,14 @@ export function Navigation() {
           >
             <div className="px-4 py-4 space-y-4">
               {navItems.map((item) => (
-                <Link
+                <a
                   key={item.name}
                   href={item.href}
                   onClick={() => setIsMobileMenuOpen(false)}
                   className="block text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors"
                 >
                   {item.name}
-                </Link>
+                </a>
               ))}
             </div>
           </motion.div>

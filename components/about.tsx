@@ -47,21 +47,13 @@ export function About() {
             className="space-y-6"
           >
             <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-              Hey, I&apos;m Alex. I&apos;ve spent the last five years diving deep into the world of
-              digital design and development. What started as curiosity about how websites
-              work evolved into a passion for creating experiences that feel effortless.
+              I’m Jaffar, a UI/UX Designer with 3+ years of experience crafting intuitive and visually engaging digital experiences. What started as curiosity about design and interfaces turned into a passion for building products that feel simple, clear, and meaningful for users.
             </p>
             <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-              My approach is simple: understand the problem, design with intention, and
-              build with care. I believe great products happen when design and engineering
-              work in harmony, not in silos. That&apos;s why I bridge both worlds—translating
-              ideas into beautiful, functional interfaces.
+            My approach is straightforward: understand the user, design with purpose, and deliver with precision. I believe the best products are created when design, development, and strategy work together. That’s why I enjoy collaborating closely with developers and product teams to turn ideas into functional, user-centered interfaces.
             </p>
             <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-              When I&apos;m not pushing pixels or writing code, you&apos;ll find me exploring new
-              design systems, contributing to open-source projects, or sharing insights
-              with the design community. I&apos;m always learning, always iterating, always
-              pushing for better.
+              
             </p>
             <div className="pt-4">
               <div className="flex flex-wrap gap-4">

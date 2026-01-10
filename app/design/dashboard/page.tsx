@@ -45,7 +45,7 @@ export default function DashboardDesigns() {
                   <span className="text-sm text-gray-500">{design.year}</span>
                 </div>
                 <p className="text-gray-600 dark:text-gray-400 mb-4">{design.description}</p>
-                <div className="flex flex-wrap gap-2">
+                <div className="flex flex-wrap gap-2 mb-4">
                   {design.tools.map((tool) => (
                     <span
                       key={tool}
@@ -55,6 +55,14 @@ export default function DashboardDesigns() {
                     </span>
                   ))}
                 </div>
+                <a
+                  href={design.behanceUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+                >
+                  View on Behance
+                </a>
               </div>
             </motion.div>
           ))}

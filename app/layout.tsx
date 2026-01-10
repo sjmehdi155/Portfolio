@@ -7,7 +7,7 @@ import { Navigation } from "@/components/navigation";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Alex Rivera | UI/UX Designer & Frontend Developer",
+  title: "Jaffar Mehdi | UI/UX Designer & Frontend Developer",
   description:
     "Crafting beautiful, user-centered digital experiences. UI/UX Designer and Frontend Developer passionate about creating intuitive interfaces and seamless interactions.",
   keywords: [
@@ -18,16 +18,16 @@ export const metadata: Metadata = {
     "Next.js",
     "User Experience Design",
   ],
-  authors: [{ name: "Alex Rivera" }],
+  authors: [{ name: "Jaffar Mehdi" }],
   openGraph: {
-    title: "Alex Rivera | UI/UX Designer & Frontend Developer",
+    title: "Jaffar Mehdi | UI/UX Designer & Frontend Developer",
     description:
       "Crafting beautiful, user-centered digital experiences.",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Alex Rivera | UI/UX Designer & Frontend Developer",
+    title: "Jaffar Mehdi | UI/UX Designer & Frontend Developer",
     description: "Crafting beautiful, user-centered digital experiences.",
   },
 };

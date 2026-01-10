@@ -32,8 +32,8 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-xl sm:text-2xl text-gray-600 dark:text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed"
           >
-            I design and build intuitive interfaces that solve real problems.
-            Passionate about the intersection of aesthetics and functionality.
+            I design and build digital experiences that are both beautiful and functional.
+            Bridging design and development to solve real problems.
           </motion.p>
 
           <motion.div

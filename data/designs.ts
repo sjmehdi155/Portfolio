@@ -7,7 +7,8 @@ export const dashboardDesigns = [
     category: "Dashboard",
     images: ["/images/dashboard-1.jpg", "/images/dashboard-2.jpg"],
     tools: ["Figma", "Adobe XD", "Sketch"],
-    year: "2024"
+    year: "2024",
+    behanceUrl: "https://www.behance.net/gallery/analytics-dashboard"
   },
   {
     id: 2,
@@ -17,7 +18,8 @@ export const dashboardDesigns = [
     category: "Dashboard",
     images: ["/images/sales-1.jpg", "/images/sales-2.jpg"],
     tools: ["Figma", "Principle"],
-    year: "2024"
+    year: "2024",
+    behanceUrl: "https://www.behance.net/gallery/sales-dashboard"
   },
   {
     id: 3,
@@ -27,7 +29,8 @@ export const dashboardDesigns = [
     category: "Dashboard",
     images: ["/images/admin-1.jpg", "/images/admin-2.jpg"],
     tools: ["Figma", "Framer"],
-    year: "2023"
+    year: "2023",
+    behanceUrl: "https://www.behance.net/gallery/admin-panel"
   }
 ];
 
@@ -40,7 +43,8 @@ export const mobileDesigns = [
     category: "Mobile",
     images: ["/images/mobile-1.jpg", "/images/mobile-2.jpg"],
     tools: ["Figma", "Principle", "ProtoPie"],
-    year: "2024"
+    year: "2024",
+    behanceUrl: "https://www.behance.net/gallery/ecommerce-app"
   },
   {
     id: 5,
@@ -50,7 +54,8 @@ export const mobileDesigns = [
     category: "Mobile",
     images: ["/images/banking-1.jpg", "/images/banking-2.jpg"],
     tools: ["Figma", "Adobe XD"],
-    year: "2024"
+    year: "2024",
+    behanceUrl: "https://www.behance.net/gallery/banking-app"
   },
   {
     id: 6,
@@ -60,7 +65,8 @@ export const mobileDesigns = [
     category: "Mobile",
     images: ["/images/fitness-1.jpg", "/images/fitness-2.jpg"],
     tools: ["Figma", "Framer"],
-    year: "2023"
+    year: "2023",
+    behanceUrl: "https://www.behance.net/gallery/fitness-tracker"
   }
 ];
 
@@ -73,7 +79,8 @@ export const webDesigns = [
     category: "Web",
     images: ["/images/saas-1.jpg", "/images/saas-2.jpg"],
     tools: ["Figma", "Webflow"],
-    year: "2024"
+    year: "2024",
+    behanceUrl: "https://www.behance.net/gallery/saas-landing"
   },
   {
     id: 8,
@@ -83,7 +90,8 @@ export const webDesigns = [
     category: "Web",
     images: ["/images/portfolio-1.jpg", "/images/portfolio-2.jpg"],
     tools: ["Figma", "Adobe XD"],
-    year: "2024"
+    year: "2024",
+    behanceUrl: "https://www.behance.net/gallery/portfolio-website"
   },
   {
     id: 9,
@@ -93,6 +101,7 @@ export const webDesigns = [
     category: "Web",
     images: ["/images/elearning-1.jpg", "/images/elearning-2.jpg"],
     tools: ["Figma", "Sketch"],
-    year: "2023"
+    year: "2023",
+    behanceUrl: "https://www.behance.net/gallery/elearning-platform"
   }
 ];

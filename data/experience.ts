@@ -18,26 +18,26 @@ export const experiences: ExperienceItem[] = [
   {
     id: "1",
     title: "Senior UI/UX Designer",
-    company: "TechFlow Inc.",
-    period: "2022 - Present",
+    company: "DecibelBPO",
+    period: "2023 - Present",
     description:
-      "Leading design initiatives for a SaaS platform with 50K+ users. Collaborated with product and engineering teams to ship features that increased user engagement by 40%. Established design system and component library.",
+      "Designed responsive and user-centered UI/UX interfaces aligned with business requirements. Collaborated with developers and QA teams for smooth design-to-development handoff. Conducted UI/UX research, R&D, and benchmarking to apply industry best practices. Reviewed team designs to maintain design consistency, usability, and quality standards. Prepared and maintained UI documentation to support implementation accuracy.",
   },
   {
     id: "2",
-    title: "Frontend Developer",
-    company: "Digital Studio",
-    period: "2020 - 2022",
+    title: "UI UX & Graphic Designer",
+    company: "TechLabs",
+    period: "2022 - 2023",
     description:
-      "Built responsive web applications using React and Next.js. Worked closely with designers to implement pixel-perfect interfaces. Improved site performance by 60% through code optimization and best practices.",
+      "Designed user-centric UI screens for responsive web and mobile applications. Created wireframes, mockups, and prototypes to communicate design concepts effectively. Developed visual assets for marketing, including social  media, email campaigns, and print materials. Collaborated with cross-functional teams to deliver high- quality designs on time and within scope.",
   },
   {
     id: "3",
-    title: "Junior Designer",
-    company: "Creative Agency",
-    period: "2019 - 2020",
+    title: "UI UX & Graphic Designer",
+    company: "Pixact",
+    period: "2020 - 2022",
     description:
-      "Designed interfaces for various clients across industries. Created wireframes, prototypes, and high-fidelity mockups. Participated in user research and usability testing sessions.",
+      "Designed responsive websites, including e-commerce and portfolio platforms. Created wireframes, prototypes, and high-fidelity UI aligned with client goals and branding. Designed user interfaces for web and mobile applications based on user and project requirements. Managed multiple design projects while maintaining quality and meeting deadlines. Collaborated with developers and product managers to ensure accurate and timely implementation. Produced graphic designs for web, print, social media, and marketing campaigns. Developed brand identities, style guides, and marketing collateral to ensure consistent brand messaging.",
   },
 ];
 

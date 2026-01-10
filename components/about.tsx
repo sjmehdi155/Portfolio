@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Image from "next/image";
 
 export function About() {
   return (
@@ -24,17 +23,14 @@ export function About() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="relative aspect-square max-w-md mx-auto"
+            className="relative aspect-square max-w-md mx-auto md:order-1"
           >
             <div className="absolute inset-0 bg-gradient-to-br from-blue-400 via-purple-500 to-pink-500 rounded-2xl blur-2xl opacity-20"></div>
             <div className="relative w-full h-full rounded-2xl overflow-hidden border border-gray-200 dark:border-gray-800 bg-gray-100 dark:bg-gray-800">
-              <Image
+              <img
                 src="/images/img.jpg"
                 alt="Profile"
-                fill
-                className="object-cover"
-                priority
-                sizes="(max-width: 768px) 100vw, 500px"
+                className="w-full h-full object-cover"
               />
             </div>
           </motion.div>
@@ -44,7 +40,7 @@ export function About() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="space-y-6"
+            className="space-y-6 md:order-2"
           >
             <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
               I’m Jaffar, a UI/UX Designer with 3+ years of experience crafting intuitive and visually engaging digital experiences. What started as curiosity about design and interfaces turned into a passion for building products that feel simple, clear, and meaningful for users.
@@ -53,7 +49,7 @@ export function About() {
             My approach is straightforward: understand the user, design with purpose, and deliver with precision. I believe the best products are created when design, development, and strategy work together. That’s why I enjoy collaborating closely with developers and product teams to turn ideas into functional, user-centered interfaces.
             </p>
             <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-              
+            When I’m not designing screens, I’m exploring new design trends, refining my skills, and experimenting with better ways to improve usability and visual impact. I’m always learning, always iterating, and always striving to create better digital experiences.
             </p>
             <div className="pt-4">
               <div className="flex flex-wrap gap-4">

@@ -18,7 +18,7 @@ export function Projects() {
         >
           <h2 className="text-4xl sm:text-5xl font-bold mb-4">Featured Projects</h2>
           <p className="text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            A selection of work I'm proud of. Each project tells a story of problem-solving
+            A selection of work I&apos;m proud of. Each project tells a story of problem-solving
             and craft.
           </p>
         </motion.div>

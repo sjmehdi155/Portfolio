@@ -37,7 +37,7 @@ export function DesignShowcase() {
         >
           <h2 className="text-4xl sm:text-5xl font-bold mb-4">Design Showcase</h2>
           <p className="text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto mb-8">
-            A collection of UI designs, dashboards, and interfaces I've created.
+            A collection of UI designs, dashboards, and interfaces I&apos;ve created.
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-4">

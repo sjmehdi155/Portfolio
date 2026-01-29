@@ -51,7 +51,7 @@ export function Contact() {
       });
       
       if (response.ok) {
-        alert("Message sent successfully! I'll get back to you soon.");
+        alert("Message sent successfully! I&apos;ll get back to you soon.");
         setFormData({ name: "", email: "", message: "" });
       } else {
         throw new Error('Failed to send message');
@@ -82,9 +82,9 @@ export function Contact() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl sm:text-5xl font-bold mb-4">Let's Work Together</h2>
+          <h2 className="text-4xl sm:text-5xl font-bold mb-4">Let&apos;s Work Together</h2>
           <p className="text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            Have a project in mind? I'd love to hear about it. Send me a message and let's
+            Have a project in mind? I&apos;d love to hear about it. Send me a message and let&apos;s
             create something amazing.
           </p>
         </motion.div>
@@ -100,8 +100,8 @@ export function Contact() {
             <div>
               <h3 className="text-2xl font-bold mb-6">Get in Touch</h3>
               <p className="text-gray-700 dark:text-gray-300 mb-8 leading-relaxed">
-                Whether you're looking to start a new project, discuss design ideas, or
-                just want to chat about technology, feel free to reach out. I'm always
+                Whether you&apos;re looking to start a new project, discuss design ideas, or
+                just want to chat about technology, feel free to reach out. I&apos;m always
                 open to new opportunities and interesting conversations.
               </p>
             </div>

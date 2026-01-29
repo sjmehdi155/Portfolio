@@ -36,8 +36,16 @@ export default function DashboardDesigns() {
               transition={{ delay: index * 0.1 }}
               className="bg-white dark:bg-gray-900 rounded-2xl overflow-hidden border border-gray-200 dark:border-gray-800 hover:shadow-lg transition-shadow"
             >
-              <div className="aspect-video bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-800 dark:to-gray-900 flex items-center justify-center">
-                <div className="text-6xl">{design.emoji}</div>
+              <div className="aspect-video bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-800 dark:to-gray-900 flex items-center justify-center overflow-hidden">
+                {design.images && design.images[0] ? (
+                  <img 
+                    src={design.images[0]} 
+                    alt={design.title}
+                    className="w-full h-full object-cover object-top"
+                  />
+                ) : (
+                  <div className="text-6xl">{design.emoji}</div>
+                )}
               </div>
               <div className="p-6">
                 <div className="flex items-center justify-between mb-2">

@@ -5,7 +5,7 @@ export const dashboardDesigns = [
     description: "Comprehensive analytics dashboard with real-time data visualization",
     emoji: "📊",
     category: "Dashboard",
-    images: ["/images/dashboard-1.jpg", "/images/dashboard-2.jpg"],
+    images: ["/images/worknova 1.png", "/images/worknova.png"],
     tools: ["Figma", "Adobe XD", "Sketch"],
     year: "2024",
     behanceUrl: "https://www.behance.net/gallery/analytics-dashboard"
@@ -16,7 +16,7 @@ export const dashboardDesigns = [
     description: "Sales performance tracking dashboard with KPI metrics",
     emoji: "📈",
     category: "Dashboard",
-    images: ["/images/sales-1.jpg", "/images/sales-2.jpg"],
+    images: ["/images/le bon.png", "/images/sales-2.jpg"],
     tools: ["Figma", "Principle"],
     year: "2024",
     behanceUrl: "https://www.behance.net/gallery/sales-dashboard"

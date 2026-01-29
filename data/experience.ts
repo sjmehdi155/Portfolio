@@ -45,18 +45,40 @@ export const education: EducationItem[] = [
   {
     id: "1",
     degree: "Bachelor of Science in Computer Science",
-    school: "State University",
-    period: "2015 - 2019",
+    school: "Iqra University",
+    period: "2016 - 2021",
     description:
-      "Focused on software engineering and human-computer interaction. Graduated magna cum laude. Relevant coursework included web development, database systems, and software design patterns.",
+      "Completed a comprehensive program covering core computer science concepts including programming, software development, databases, and web technologies, with a strong focus on problem-solving, logical thinking, and practical project-based learning.",
   },
   {
     id: "2",
-    degree: "UI/UX Design Certification",
-    school: "Design Institute",
-    period: "2019",
+    degree: "Figma UI UX Design Advanced",
+    school: "Udemy",
+    period: "2024",
     description:
-      "Intensive 12-week program covering design thinking, user research, prototyping, and design tools. Completed with distinction and portfolio project focused on mobile app design.",
+      "This certification helped me master advanced Figma features, including components, auto-layout, prototyping, and responsive design. It improved my workflow and enabled me to create clean, scalable, and professional UI for real-world projects.",
+  },      
+  {
+    id: "3",
+    degree: "UI/UX Design Certification",
+    school: "Pixact",
+    period: "2021",
+    description:
+      "This UI/UX certification from Pixact built my foundation in user-centered design, covering wireframing, prototyping, and professional UI creation in Figma through hands-on, project-based learning.",
   },
+  {
+    id: "4",
+    degree: "Intermediate in Pre Engineering",
+    school: "Govt. Deg Sci & Comm College Gulshan e Iqbal",
+    period: "2014",
+    description:
+      "Completed intermediate studies with a focus on mathematics, physics, and chemistry, building a strong analytical and problem-solving foundation that supported further education in engineering and computer science.",
+  },
+   
 ];
+
+
+
+
+
 

@@ -5,10 +5,10 @@ import { useState } from "react";
 import Link from "next/link";
 
 const designItems = [
-  { id: 1, category: "Dashboard", emoji: "📊", description: "Analytics Dashboard", href: "/design/dashboard" },
+  { id: 1, category: "Dashboard", emoji: "📊", description: "Analytics Dashboard", href: "/design/dashboard", image: "/images/worknova 1.png"},
   { id: 2, category: "Mobile", emoji: "📱", description: "Mobile App UI", href: "/design/mobile" },
   { id: 3, category: "Web", emoji: "💻", description: "Web Application", href: "/design/web" },
-  { id: 4, category: "Dashboard", emoji: "🎨", description: "Design System", href: "/design/dashboard" },
+  { id: 4, category: "Dashboard", emoji: "🎨", description: "Design System", href: "/design/dashboard", image: "/images/le bon.png" },
   { id: 5, category: "Mobile", emoji: "⚡", description: "Onboarding Flow", href: "/design/mobile" },
   { id: 6, category: "Web", emoji: "🔐", description: "Authentication UI", href: "/design/web" },
   { id: 7, category: "Dashboard", emoji: "📈", description: "Data Visualization", href: "/design/dashboard" },
@@ -63,25 +63,36 @@ export function DesignShowcase() {
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
         >
           {filteredItems.map((item, index) => (
-            <Link key={item.id} href={item.href}>
-              <motion.div
-                layout
-                initial={{ opacity: 0, scale: 0.9 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.4, delay: index * 0.05 }}
-                whileHover={{ y: -8 }}
-                className="group relative aspect-video rounded-2xl overflow-hidden border border-gray-200 dark:border-gray-800 bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-800 dark:to-gray-900 cursor-pointer"
-              >
+            <motion.div
+              key={item.id}
+              layout
+              initial={{ opacity: 0, scale: 0.9 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.4, delay: index * 0.05 }}
+              whileHover={{ y: -8 }}
+              className="group relative aspect-video rounded-2xl overflow-hidden border border-gray-200 dark:border-gray-800 bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-800 dark:to-gray-900 cursor-pointer"
+            >
+              <Link href={item.href} className="absolute inset-0 z-10">
                 <div className="absolute inset-0 flex flex-col items-center justify-center p-6 text-center transition-transform duration-300 group-hover:scale-105">
-                  <div className="text-6xl mb-4">{item.emoji}</div>
-                  <p className="text-sm font-medium text-gray-700 dark:text-gray-300">
-                    {item.description}
-                  </p>
+                  {item.image ? (
+                    <img 
+                      src={item.image} 
+                      alt={item.description}
+                      className="w-full h-full object-cover object-top rounded-xl"
+                    />
+                  ) : (
+                    <>
+                      <div className="text-6xl mb-4">{item.emoji}</div>
+                      <p className="text-sm font-medium text-gray-700 dark:text-gray-300">
+                        {item.description}
+                      </p>
+                    </>
+                  )}
                 </div>
-                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-              </motion.div>
-            </Link>
+              </Link>
+              <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            </motion.div>
           ))}
         </motion.div>
       </div>
